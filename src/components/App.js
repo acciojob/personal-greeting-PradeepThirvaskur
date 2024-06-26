@@ -12,7 +12,7 @@ const App = () => {
     <div>
        <input  value={name} onChange={onChange}>
        </input>
-       {name ?  <p>Hello {name}!</p> :  null } 
+       {name ?  <p>Hello {name}!</p> :  <p></p> } 
        
     </div>
   );
